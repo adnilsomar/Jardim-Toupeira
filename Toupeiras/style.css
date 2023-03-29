@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+body{
+
+  background-image: url(assets/fundo.svg);
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.container{
+
+  display: grid;
+  grid-template-areas: 
+  'a b c d' 
+  'e f g h' 
+  'i j k l';
+  gap: 54px;
+  position: fixed;
+ 
+ 
+}
+.tup{
+  width: 21.5rem;
+  min-height: 17.1rem;
+ 
+}
+
+.container div:nth-child(1){
+  grid-area: a;
+  background-image: url(assets/toupeira6.svg); 
+   
+}
+.container div:nth-child(2){
+  grid-area: b;
+  background-image: url(assets/toupeira6.svg); 
+}
+.container div:nth-child(3){
+  grid-area: c;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(4){
+  grid-area: d;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(5){
+  grid-area: e;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(6){
+  grid-area: f;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(7){
+  grid-area: g;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(8){
+  grid-area: h;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(9){
+  grid-area: i;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(10){
+  grid-area: j;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(11){
+  grid-area: k;
+  background-image: url(assets/toupeira6.svg);
+}
+.container div:nth-child(12){
+  grid-area: l;
+  background-image: url(assets/toupeira6.svg);
+}
+
+
+.tup:nth-child(1){
+  
+  animation: trans 1s forwards;
+}
+
+.tup:nth-child(2){
+ 
+  animation: trans 1s 2s forwards;
+}
+
+.tup:nth-child(3){
+ 
+  animation: trans 1s 5s forwards;
+}
+.tup:nth-child(4){
+  
+  animation: trans 1s 3s forwards;
+}
+.tup:nth-child(5){
+  
+  animation: trans 1s 1s forwards;
+}
+.tup:nth-child(7){
+  animation: trans 1s 4s forwards;
+}
+.tup:nth-child(10){
+  animation: trans 1s 6s forwards;
+}
+
+@keyframes trans{
+  0%{
+
+    background-image: url(assets/toupeira1.svg);
+  }
+  20%{
+    background-image: url(assets/toupeira2.svg);
+  }
+  40%{
+    background-image: url(assets/toupeira3.svg);
+  }
+  60%{
+    background-image: url(assets/toupeira4.svg);
+  }
+  80%{
+    background-image: url(assets/toupeira5.svg);
+  }
+  100%{
+    background-image: url(assets/toupeira6.svg);
+  }
+}
+
+
+
