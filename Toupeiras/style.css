@@ -30,7 +30,7 @@ body{
  
  
 }
-.tup{
+.hole{
   width: 21.5rem;
   min-height: 17.1rem;
  
@@ -87,32 +87,32 @@ body{
 }
 
 
-.tup:nth-child(1){
+.hole:nth-child(1){
   
   animation: trans 1s forwards;
 }
 
-.tup:nth-child(2){
+.hole:nth-child(2){
  
   animation: trans 1s 2s forwards;
 }
 
-.tup:nth-child(3){
+.hole:nth-child(3){
  
   animation: trans 1s 5s forwards;
 }
-.tup:nth-child(4){
+.hole:nth-child(4){
   
   animation: trans 1s 3s forwards;
 }
-.tup:nth-child(5){
+.hole:nth-child(5){
   
   animation: trans 1s 1s forwards;
 }
-.tup:nth-child(7){
+.hole:nth-child(7){
   animation: trans 1s 4s forwards;
 }
-.tup:nth-child(10){
+.hole:nth-child(10){
   animation: trans 1s 6s forwards;
 }
 
