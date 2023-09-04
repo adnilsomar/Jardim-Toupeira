@@ -1,4 +1,4 @@
-# :green_circle: Stage 03 - Challenge - Jardim das toupeiras. :sunflower:
+# :green_circle: Jardim das toupeiras. :sunflower:
 ### **Desafio da Rocketseat para treinar animações com keyframes.**
 
 
